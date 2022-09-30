@@ -57,3 +57,12 @@ $(function(){
     var maxDate = year + '-' + month + '-' + day;    
     $('#txtStart').attr('max', maxDate);
 });
+
+$(document).ready(function() {
+    $("#txtPend").keypress(function() {
+        if ($(this).val().length == $(this).attr("maxlength")) {
+            return false;
+        }
+    });
+});
+
