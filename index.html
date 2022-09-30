@@ -21,15 +21,7 @@
       <div class="container-fluid">
          <div class="container mt-4">
             <form>
-               <div class="mb-3">
-                  <div class="form-check">
-                     <input class="form-check-input" type="checkbox" id="chkbox" onclick="myBalance()">
-                     <label class="form-check-label" for="chkbox">
-                     Outstanding (till March 2018)
-                     </label>
-                  </div>
-                  <input type="number" id="txtPend" maxlength="5" class="form-control" value="0" style="display:none">
-               </div>
+               
                <div class="mb-3">
                   <label for="txtStart" class="form-label">Select From Month</label>
                   <input type="date" id="txtStart" class="form-control" min="2018-04-01">
@@ -45,6 +37,15 @@
                      <option value="700">Rent</option>
                      <option value="600">Commercial</option>
                   </select>
+               </div>
+               <div class="mb-3">
+                  <div class="form-check">
+                     <input class="form-check-input" type="checkbox" id="chkbox" onclick="myBalance()">
+                     <label class="form-check-label" for="chkbox">
+                     Outstanding (till March 2018)
+                     </label>
+                  </div>
+                  <input type="number" id="txtPend" maxlength="5" class="form-control" value="0" style="display:none">
                </div>
                <div class="mb-3">
                   <div class="btn-group" role="group">
