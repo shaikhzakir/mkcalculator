@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@700;800&display=swap');
+
+/* ===========================
+          Reset HMTL  
+   =========================== */
+
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:hover,
+:active,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================
+      Predefine Variables  
+   =========================== */
+
+   
+:root {
+    --primary-color: #325662;
+    --secondry-color: #f7c17b;
+    --third-color: #355764;
+    --gray-color: #999;
+    --text-color: #1c1c1c;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --primary-font: 'Poppins', sans-serif;
+    --secondry-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mx-auto1 {
+    margin: auto!important;
+    display: block;
+}
+strong{
+    color:     ;
+}
+.result .h5{
+    font-size: 1rem;
+}
+
+.bg-info1{
+    background-color: #DFF6FF;
+    color: #1363DF;
+
+}
+
+.bg-info1 strong{
+    color:#06283D;
+    font-size: 1.2rem;
+} 
+.btn-group{
+    width: 100%;
+}
+
+
+.footer .fa{
+    animation: heartbeat 1s infinite;
+    transition: all .2s ease-in-out;
+    color: red;
+
+}
+
+    @keyframes heartbeat
+        {
+        0%
+        {
+            transform: scale( .75 );
+        }
+        20%
+        {
+            transform: scale( 1 );
+        }
+        40%
+        {
+            transform: scale( .75 );
+        }
+        60%
+        {
+            transform: scale( 1 );
+        }
+        80%
+        {
+            transform: scale( .75 );
+        }
+        100%
+        {
+            transform: scale( .75 );
+        }
+    }
