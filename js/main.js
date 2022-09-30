@@ -30,3 +30,13 @@ function myBalance() {
        document.getElementById("txtPend").value = "0";
     }
   }
+
+
+
+  $(function () {
+    $('#btnReset').on('click', function () {
+    document.getElementById('currentdate').innerHTML = 0;
+    document.getElementById('ramount').innerHTML = 0;
+    document.getElementById('tmamount').innerHTML = 0;
+  });
+});
